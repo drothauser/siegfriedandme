@@ -6,11 +6,30 @@
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="assertion1.html">Assertions &amp; Answers</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+    </div>
+    <div style="font-size:30px;cursor:pointer;float: left;position: absolute;" onclick="openNav()">&#9776; menu</div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
     <div align="center">
         <div>
             <img src="images/siegfriedandme.png" alt="Siegried And Me - The Best of Atheism Answered">
         </div>
         <div style="width: 800px;">
+            <h1>SIEGFRIED &amp; ME</h1>
+            <h2>The Best of Atheism Answered</h2>
             <div style="font-size: large;font-weight: bold;font-style: italic;text-align: left">
                 Getting our Christian young people from childhood to adulthood with their faith intact has never been
                 harder.
@@ -73,10 +92,12 @@
                     Reasons Young Christians Leave Church</a>&quot; pertain to their struggle with our lack of
                 intellectual
                 credibility. That&apos;s why our churches need to
-                consider a different approach. Clayton Brumby&apos;s "Siegfried and Me" is an outside-the-box way to
+                consider a different approach. Clayton Brumby&apos;s &quot;Siegfried and Me&quot; is an outside-the-box
+                way to
                 confront this generation&apos;s faith-spoiling defeaters. It will shock, entertain, enlighten and
                 encourage
-                you—especially older teens and young adults—that the Christian faith can stand the assault of college
+                you - especially older teens and young adults - that the Christian faith can stand the assault of
+                college
                 professors and the antagonism of new atheists.
             </div>
             <div style="text-align: center;font-weight: bold;">
