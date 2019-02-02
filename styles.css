@@ -37,6 +37,13 @@ h1,h2 {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  .menu {
+    font-size:30px;
+    cursor:pointer;
+    float: left;
+    position: absolute;
+  }
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -47,3 +54,67 @@ h1,h2 {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+
+.intro {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left; 
+    margin-top: 1em;
+  }
+
+.main-container {
+    width: 800px;
+  }
+
+.paragraph {
+  font-size: large;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.paragraph-quote {
+  font-size: large;
+  text-align: left;
+  font-style: italic;
+  margin-top: 1em;
+  padding-left: 50px;
+}
+
+.paragraph-indent {
+  font-size: large;
+  text-align: left;
+  margin-top: 1em;
+  padding-left: 50px;
+}
+
+.section-header {
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.endorser {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-line {
+  font-size: large;
+  text-align: center;
+}
+
+.inline-box {
+  float: right; 
+  width: 300px;
+  text-align: center;
+  border-style: solid;
+  display: block;
+  margin:1em;
+  padding: 1em;
+}
+
+.inline-box-content {
+  font-weight: bold;
+}
+
