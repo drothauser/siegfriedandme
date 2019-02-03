@@ -4,6 +4,11 @@ h1,h2 {
     !important
   }
 
+.boxhead a {
+  text-decoration:none;
+  color: black;
+}
+
  .sidenav {
     height: 100%;
     width: 0;
@@ -122,5 +127,11 @@ h1,h2 {
   font-size: large;
   margin-top: 1em;
   margin-bottom: 1em
+}
+
+#performance {
+  font-size: large;
+  text-align: center;
+  margin-top: 1em;
 }
 
