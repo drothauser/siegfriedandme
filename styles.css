@@ -145,3 +145,12 @@ hr {
   margin-top: 1em;
 }
 
+.footnote {
+  font-size: small;
+  text-align: left;
+}
+
+#footnote {
+  font-style: normal;
+}
+
