@@ -124,21 +124,6 @@ hr {
   font-weight: bold;
 }
 
-.next-assertion {
-  text-align: right;
-  font-size: large;
-  margin-top: 1em;
-  margin-bottom: 1em
-}
-
-.previous-assertion {
-  float: left;
-  text-align: right;
-  font-size: large;
-  margin-top: 1em;
-  margin-bottom: 1em
-}
-
 #performance {
   font-size: large;
   text-align: center;
@@ -150,8 +135,25 @@ hr {
   text-align: left;
 }
 
-#footnote {
-  font-style: normal;
-  !important
+#assertions-container {
+  width: 100%;
+  clear:both;
+  font-size: large;
+  margin-top: 1em;
+  margin-bottom: 1em
 }
+
+#assertions-container > .left {
+  float: left;
+}
+
+#assertions-container > .middle {  
+  text-align: center;
+  margin:0 auto;
+}
+
+#assertions-container > .right {
+  float: right;  
+}
+
 
