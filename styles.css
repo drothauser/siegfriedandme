@@ -85,6 +85,7 @@ hr {
   font-style: italic;
   margin-top: 1em;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .paragraph-indent {
@@ -92,6 +93,7 @@ hr {
   text-align: left;
   margin-top: 1em;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .section-header {
