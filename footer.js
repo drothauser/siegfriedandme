@@ -2,9 +2,10 @@
 
 var footerHTML = ''
 footerHTML += '<hr/>'
-footerHTML += '<div>'
+footerHTML += '<div class="footer">'
 footerHTML += '<a href="index.html">Home</a> | '
 footerHTML += '<a href="assertions.html">Assertions &amp; Answers</a> | '
+footerHTML += '<a href="bibliography.html">Apologetics Bibliography</a> | '
 footerHTML += '<a href="performances.html">Performances</a> | '
 footerHTML += '<a href="contact.html">Contact</a>'
 footerHTML += '</div>'
